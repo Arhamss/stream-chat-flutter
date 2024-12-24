@@ -77,10 +77,6 @@ flutter:
   uses-material-design: true
 
 # This package supports all platforms listed below.
-#platforms:
-#  android:
-#  ios:
-#  linux:
-#  macos:
-#  web:
-#  windows:
+platforms:
+  android:
+  ios:
