@@ -75,6 +75,12 @@ flutter:
     - lib/svgs/
     - animations/
   uses-material-design: true
+  plugin:
+    platforms:
+      android:
+        pluginClass: StreamChatFlutterPlugin
+      ios:
+        pluginClass: StreamChatFlutterPlugin
 
 # This package supports all platforms listed below.
 platforms:
